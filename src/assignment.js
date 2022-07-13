@@ -56,7 +56,7 @@ const celsiusDegree = [-50, -45, -32, -27, -23, -18, 0, 22, 50, 47, 100];
 
 const celsiusToFahrenheits = celsiusDegree.map(function(celsius){
   return Math.trunc((celsius * 9/5) + 32)
- };   
+});   
 console.log(celsiusToFahrenheits);
 // ========================
 // DO NOT EDIT THIS BLOCK
